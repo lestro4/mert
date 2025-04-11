@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayd E-Pin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css"> <!-- CSS Bağlantısı -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <nav class="bg-blue-900 p-4 shadow-lg relative transition-all duration-300 ease-in-out">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-yellow-400 text-2xl font-bold hover:scale-110 transition-transform duration-300">Ayd Epin</a>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="text-white hover:text-yellow-400 transition-colors duration-300">Ana Sayfa</a></li>
+                <li class="relative dropdown" id="urunlerMenu">
+                    <a href="#" class="text-white hover:text-yellow-400 transition-colors duration-300">Ürünler</a>
+                    <ul class="dropdown-menu absolute bg-blue-800 text-white mt-2 p-2 rounded-lg shadow-lg" id="kategoriMenu">
+                        <li><a href="pubg.html" class="block px-4 py-2 hover:bg-yellow-400 hover:text-blue-900 transition-all duration-300">Pubg M</a></li>
+                        <li><a href="csgo.html" class="block px-4 py-2 hover:bg-yellow-400 hover:text-blue-900 transition-all duration-300">CS:GO</a></li>
+                        <li><a href="valorant.html" class="block px-4 py-2 hover:bg-yellow-400 hover:text-blue-900 transition-all duration-300">Valorant</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="text-white hover:text-yellow-400 transition-colors duration-300">Hakkımızda</a></li>
+                <li><a href="#" class="text-white hover:text-yellow-400 transition-colors duration-300">İletişim</a></li>
+            </ul>
+            <button class="bg-yellow-400 text-blue-900 px-4 py-2 rounded-lg font-semibold hover:bg-yellow-500 transition-all duration-300">Giriş Yap</button>
+        </div>
+    </nav>
+    <script src="script.js"></script> <!-- JavaScript Bağlantısı -->
+
+    
+  
+    <div class="giriş">
+        <form>
+        <h1 class="giriştext">Giriş Yap</h1>
+        <input type="text" name="isim" placeholder="İsim Veya E-Posta"><br>
+        <input type="text" name="şifre" placeholder="Şifreniz"><br>
+        <button class="btn">Giriş Yap</button>
+        <a href=""><p class="şifremiunuttum">Şifremi Unuttum</p></a>
+    </div>
+
+
+</body>
+</html>

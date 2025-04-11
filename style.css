@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.dropdown-menu {
+    display: none;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+.fotolar{
+    display: flex;
+    height: 450px;
+    width: 1200px;
+    margin-top: 100px;
+    margin-left: 420px;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 1rem;
+}
+
+.fotolar > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.fotolar > div:hover{
+    flex: 5;
+}
+
+.pubg{
+    display: inline-block;
+    border-radius: 20px;
+    width: 250px;
+    height: 305px;
+    margin-left: 420px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 30px rgb(24, 20, 92);;
+}
+
+.oyunlar{
+    margin-left: 415px;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  text-shadow: 0px 0px 10px black;
+}
+
+.valorant{
+    display: inline-block;
+    border-radius: 20px;
+    width: 250px;
+    height: 305px;
+    margin-top: 50px;
+    margin-left: 60px;
+    box-shadow: 0px 0px 30px rgb(24, 20, 92);;
+}
+
+.valorant:hover{
+    width: 270px;
+    height: 325px;
+    transition: 0.5s;
+    
+}
+
+.pubg:hover{
+    width: 270px;
+    height: 325px;
+    transition: 0.5s;
+}
+
+.cs2{
+    display: inline-block;
+    border-radius: 20px;
+    width: 250px;
+    height: 305px;
+    margin-top: 50px;
+    margin-left: 60px;
+    box-shadow: 0px 0px 30px rgb(24, 20, 92);;
+}
+
+.cs2:hover{
+    width: 270px;
+    height: 325px;
+    transition: 0.5s;
+}
+
+.lol{
+    display: inline-block;
+    border-radius: 20px;
+    width: 250px;
+    height: 305px;
+    margin-top: 50px;
+    margin-left: 60px;
+    box-shadow: 0px 0px 30px rgb(24, 20, 92);;
+}
+
+.lol:hover{
+    width: 270px;
+    height: 325px;
+    transition: 0.5s;
+}
+
+
+
+
+.prandom{
+    height: 350px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 520px;
+    box-shadow: 0px 0px 20px white;
+}
+
+.pubgürünler{
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 80px;
+    color: aliceblue;
+    text-shadow: 0px 0px 20px rgb(90, 90, 90);
+    text-align: center;
+}
+
+.pubgürünler:hover{
+    color: darkgrey;
+    transition: 0.5s;
+}
+
+.puc{
+    height: 350px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 80px;
+    box-shadow: 0px 0px 20px white;
+}
+
+.phesap{
+    height: 350px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 80px;
+    box-shadow: 0px 0px 20px white;
+}
+
+.pubghakkında{
+    background-color: rgb(66, 66, 66);
+    height: 200px;
+    width: 1300px;
+    margin-left: 410px;
+    margin-top: 70px;
+    color: rgb(161, 161, 161);
+    padding-left: 50px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+
+
+
+.giriş{
+    width: 500px;
+    height: 600px;
+    background: linear-gradient(
+        45deg,
+        #0d0025,#010014,#000007,#001022,
+          #02031d,#00111b,#0a0008,#000727
+    );
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 820px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(191, 253, 255);
+}
+
+form{
+    padding-top: 100px;
+}
+
+input{
+    width: 330px;
+    height: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.btn{
+    background: rgb(58, 58, 58);
+    line-height: 20px;
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.btn::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #a7a7a7,#521121,#2a2c8d,#265d9c,
+          #522675,#195c83,#38002c,#3a1515
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+@keyframes glowing{
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+}
+
+.giriştext{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal; 
+    padding-bottom: 90px;
+    color: white;
+    font-size: xx-large;
+}
+
+input:focus{
+    border: 5px solid rgb(0, 255, 179);
+    outline: none;
+    transition: 0.1s;
+}
+
+.şifremiunuttum{
+    padding-top: 80px;
+    color: white;
+}
+
+.şifremiunuttum:hover{
+    color: aqua;
+    transition: 0.5s;
+}
